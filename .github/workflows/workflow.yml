@@ -25,7 +25,7 @@ jobs:
         chrome-version: 1134294
     - name: set chrome in path
       run: | 
-        echo "/opt/hostedtoolcache/chromium/1134294/x64" >> $GITHUB_PATH
+        echo "/opt/hostedtoolcache/chromium/1134294" >> $GITHUB_PATH
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v3
       with:
