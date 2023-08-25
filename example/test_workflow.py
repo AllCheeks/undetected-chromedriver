@@ -39,7 +39,7 @@ def main():
                 path_list.insert(0, str(item))
                 os.environ['PATH'] = os.pathsep.join(path_list)
                 logger.info('new PATH %s:' % str(os.environ.get('PATH')))
-                browser_executable_path = str(item / 'chrome')
+                browser_executable_path = "/opt/hostedtoolcache/chromium/1134294/chrome"
                 break
 
     ####
